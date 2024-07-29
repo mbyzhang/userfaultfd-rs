@@ -10,7 +10,7 @@
 mod builder;
 mod error;
 mod event;
-mod raw;
+pub mod raw;
 
 pub use crate::builder::{FeatureFlags, UffdBuilder};
 pub use crate::error::{Error, Result};
